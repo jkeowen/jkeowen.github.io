@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <Header class="d-flex flex-column align-items-center m-3 p-3 border">
-    <h1>Justin Keowen</h1>
-    <h6>Fullstack Developer</h6>
-    <nav>
-      <a href="./index.html">Home</a>
-      <a href="./project.html">Projects</a>
-      <a href="./resume.html">Resume</a>
-      <a href="https://github.com/jkeowen" target="_blank" >Github</a>
-      <a href="https://www.linkedin.com/in/justin-keowen/" target="_blank" >LinkedIn</a>
-    </nav>
-  </Header>
-  <div class="d-flex flex-column align-items-center ">
+import React from "react";
+
+const Projects = () => {
+
+  return(
+    <div class="d-flex flex-column align-items-center ">
     <h2 class="border-bottom border-dark border-2" >Projects</h2>
     <div>
       <div class="d-flex flex-column">
@@ -58,6 +40,7 @@
       </div>
     </div>
   </div>
-  </div>
-</body>
-</html>
+  )
+}
+
+export default Projects;
