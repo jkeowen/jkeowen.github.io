@@ -13,7 +13,7 @@ const Projects = () => {
  
   return(
     <div className="d-flex flex-column align-items-center">
-    <h2 className="" ><u>Projects</u></h2>
+    <h2 className="mt-4" ><u>Projects</u></h2>
     <div>
     {
       dataSet.map((data, index)=> {
