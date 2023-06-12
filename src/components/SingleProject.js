@@ -18,7 +18,7 @@ const SingleProject = ({name,
     <h4 className="mt-3">{name}</h4>
     <div className="card card-body project-card ">
           <iframe  
-            src="https://youtube.com/embed/P2L1ovXS6hM">
+            src={video}>
           </iframe>
         </div>
       <p>
