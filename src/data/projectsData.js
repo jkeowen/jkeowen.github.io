@@ -13,17 +13,17 @@ const projectData = () => {
       threeId: "cThreeProjectOne",
       threeTarget: "#cThreeProjectOne"
     },
-    {
-      name: "FitnessTracker",
-      repo: "https://github.com/jkeowen/FitnessTracker",
-      description: "model",
-      videoPath: "https://www.youtube.com/embed/ED2pSguRn7U",
-      imagePath: "./Images/FitnessTrackerDBMockup.png",
-      twoId: "cTwoProjectTwo",
-      twoTarget: "#cTwoProjectTwo",
-      threeId: "cThreeProjectTwo",
-      threeTarget: "#cThreeProjectTwo"
-    },
+    // {
+    //   name: "FitnessTracker",
+    //   repo: "https://github.com/jkeowen/FitnessTracker",
+    //   description: "model",
+    //   videoPath: "https://www.youtube.com/embed/ED2pSguRn7U",
+    //   imagePath: "./Images/FitnessTrackerDBMockup.png",
+    //   twoId: "cTwoProjectTwo",
+    //   twoTarget: "#cTwoProjectTwo",
+    //   threeId: "cThreeProjectTwo",
+    //   threeTarget: "#cThreeProjectTwo"
+    // },
     {
       name: "Strangers Things",
       repo: "https://github.com/jkeowen/StrangersThings",
