@@ -7,7 +7,7 @@ const Header = () => {
       <h1>Justin Keowen</h1>
       <h6>Fullstack Developer</h6>
       <nav>
-        <Link className="mx-2" to={'/'} >Test</Link>
+        <Link className="mx-2" to={'/'} >Home</Link>
         <Link className="mx-2" to={'/projects'}>Projects</Link>
         <Link className="mx-2" to={'/resume'}>Resume</Link>
         <a className="mx-2" href="https://github.com/jkeowen" target="_blank" >Github</a>
