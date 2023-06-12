@@ -5,7 +5,9 @@ const projectData = () => {
    {
       name: "Thay In Thay Out",
       repo: "https://github.com/DungeonsAndDevelopers/ThayInThayOut",
-      description: "model",
+      description: `Thay In Thay Out is a fantasy themed e-commerce site that "sells" spells on demand. The frontend is built using React and Bootstrap. It uses a Node.js backend with 
+      Express.js for the server and PostgreSQL for the database. \n One thing that was challenging that I would like to highlight is the process of getting the data from the D&D API we were using. The spells in the API didn't have an index so we had 
+      to fetch them by name, so first we had to fetch a list of spell names and then fetch the spell individually using each name.`,
       videoPath: "https://youtube.com/embed/P2L1ovXS6hM",
       imagePath: "./Images/ThayinThayOutCodeSnippet.png",
       twoId: "cTwoProjectOne",
@@ -13,39 +15,7 @@ const projectData = () => {
       threeId: "cThreeProjectOne",
       threeTarget: "#cThreeProjectOne"
     },
-    // {
-    //   name: "FitnessTracker",
-    //   repo: "https://github.com/jkeowen/FitnessTracker",
-    //   description: "model",
-    //   videoPath: "https://www.youtube.com/embed/ED2pSguRn7U",
-    //   imagePath: "./Images/FitnessTrackerDBMockup.png",
-    //   twoId: "cTwoProjectTwo",
-    //   twoTarget: "#cTwoProjectTwo",
-    //   threeId: "cThreeProjectTwo",
-    //   threeTarget: "#cThreeProjectTwo"
-    // },
-    {
-      name: "Strangers Things",
-      repo: "https://github.com/jkeowen/StrangersThings",
-      description: "model",
-      videoPath: "https://www.youtube.com/embed/ED2pSguRn7U",
-      imagePath: "./Images/ThayinThayOutCodeSnippet.png",
-      twoId: "cTwoProjectThree",
-      twoTarget: "#cTwoProjectThree",
-      threeId: "cThreeProjectThree",
-      threeTarget: "#cThreeProjectThree"
-    },
-    {
-      name: "Tic-Tac-Toe",
-      repo: "https://github.com/jkeowen/TicTacToe",
-      description: "model",
-      videoPath: "https://www.youtube.com/embed/ED2pSguRn7U",
-      imagePath: "./Images/TicTacToeSnip.png",
-      twoId: "cTwoProjectFour",
-      twoTarget: "#cTwoProjectFour",
-      threeId: "cThreeProjectFour",
-      threeTarget: "#cThreeProjectFour"
-    },
+   
   ]
   return data
 }
